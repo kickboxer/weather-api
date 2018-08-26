@@ -1,0 +1,12 @@
+{
+  "name": "Weather API wrapper",
+  "description": "Darksky API wrapper. Required to avoid CORS error.",
+  "repository": "https://github.com/kickboxer/weather-api",
+  "logo": "https://raw.githubusercontent.com/kickboxer/weather-api/master/darksky-icon.jpg",
+  "keywords": ["node", "express", "static"],
+  "env": {
+    "DARKSKY_API_KEY": {
+      "description": "Secret key to access Darksky API endpoints."
+    }
+  }
+}
